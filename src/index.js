@@ -58,6 +58,9 @@ async function getWikiText(breed) {
   if (breed === "sheepdog") {
     url = `https://en.wikipedia.org/api/rest_v1/page/summary/Sheep_dog`;
   }
+  if(breed === "husky"){
+    url = `https://en.wikipedia.org/api/rest_v1/page/summary/Husky`;
+  }
 
   try {
     const res = await fetch(url);
