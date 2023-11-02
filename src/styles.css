@@ -19,7 +19,7 @@ body {
 @media (min-width: 600px) {
   .wiki-content {
     display: flex;
-    flex-flow: row;
+    flex-flow: row-reverse;
   }
   .img-container {
     min-width: 50%;
