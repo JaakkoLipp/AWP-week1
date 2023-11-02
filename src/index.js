@@ -12,7 +12,7 @@ if (document.readyState !== "loading") {
 async function initializeCode() {
   //document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
   // add more here to get more breeds
-  const breeds = ["samoyed", "shiba", "sheepdog", "pug"];
+  const breeds = ["samoyed", "shiba", "sheepdog", "pug", "husky"];
 
   // all breeds in list get own wiki container
   for (const breed of breeds) {
