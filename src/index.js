@@ -1,4 +1,3 @@
-import "./styles.css";
 
 if (document.readyState !== "loading") {
   initializeCode();
